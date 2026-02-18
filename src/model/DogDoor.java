@@ -13,6 +13,7 @@ public class DogDoor {
 
     public void setOpen(boolean open) {
         this.open = open;
+        //dog door opens/closes itself(state design pattern , so i have implemented this)
         if(this.open){
             try {
                 System.out.println("The Dog Door opens....");
